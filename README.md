@@ -1,9 +1,7 @@
-#Project moved to [binary-com/tradingview](http://github.com/binary-com/tradingview)
-
 #TradingView Implementation for Binary.com
-[![Build Status](https://magnum.travis-ci.com/regentmarkets/tradingview.svg?token=G5WVALzDGxSszAeYnDnJ&branch=master)](https://magnum.travis-ci.com/regentmarkets/tradingview)
+[![Build Status](https://travis-ci.org/binary-com/tradingview.svg?branch=master)
 
-This repository contains HTML, Javascript, CSS, and images content of the [TradingView implementation for binary.com charts](http://regentmarkets.github.io/tradingview).
+This repository contains HTML, Javascript, CSS, and images content of the [TradingView implementation for binary.com charts](http://binary-com.github.io/tradingview).
 
 The project is coded in a way that same codebase could be used for both Mobile and Web.
 
