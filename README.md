@@ -4,7 +4,7 @@ This repository contains HTML, Javascript, CSS, and images content of the [Tradi
 
 The project is coded in a way that same codebase could be used for both Mobile and Web.
 
-It uses IntelXDK for generate Hybrid package for distribution in Apple and Google play store. For now, we are supporting iOS and Android devices only.
+It uses IntelXDK to generate Hybrid package for distribution in Apple and Google play store. For now, we are supporting iOS and Android devices only.
 
 #Code/Folder details
 
