@@ -84,7 +84,7 @@ module.exports = function (grunt) {
 	            options: {
 	                base: 'dist',
 	                add: true,
-	                repo: 'https://' + process.env.GIT_KEY + '@github.com/regentmarkets/tradingview.git',
+	                repo: 'https://' + process.env.GIT_KEY + '@github.com/binary-com/tradingview.git',
 	                message: 'Commiting v<%=pkg.version%> using TravisCI and GruntJS build process for beta'
 	            },
 	            src: ['**/*']
@@ -93,7 +93,7 @@ module.exports = function (grunt) {
 	            options: {
 	                base: 'dist',
 	                add: true,
-	                repo: 'https://' + process.env.GIT_KEY + '@github.com/regentmarkets/tradingview.git',
+	                repo: 'https://' + process.env.GIT_KEY + '@github.com/binary-com/tradingview.git',
 	                message: 'Commiting v<%=pkg.version%> using TravisCI and GruntJS build process for prod'
 	            },
 	            src: ['**/*']
