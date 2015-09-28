@@ -1,0 +1,12 @@
+{
+  "name": "reconnecting-websocket",
+  "_cacheHeaders": {
+    "Last-Modified": "Tue, 10 Feb 2015 06:30:29 GMT",
+    "Content-Type": "application/javascript"
+  },
+  "main": "index.js",
+  "_source": "https://cdnjs.cloudflare.com/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websocket.js",
+  "_target": "*",
+  "_originalSource": "https://cdnjs.cloudflare.com/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websocket.js",
+  "_direct": true
+}

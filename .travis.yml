@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+- '0.12'
+notifications:
+  email:
+  - arnab@binary.com
+branches:
+  only:
+  - master
+script:
+- npm install -g grunt-cli
+- grunt
+- sh travis_script.sh
+- git config --global user.email "arnab@binary.com"
+- git config --global user.name "Arnab Karmakar"
+env:
+  global:
+    secure: BkRCL+2rYaZlAhcPUwIhGnJGH6FcL25S8IdoK6fZfuql/WzcBCK82hGgKWz3ThHbDm585NYM990DOda3bwew9gGlkS5wO72E8xfTzgBeANcu3LQLhXZy1GwWubRamHOUdyjaLwR2DXXYSK+L+mZAF0/7EcewS2NNQ2VSeAKuseOQVq3mg2GtQb5ZUwNdzZKwCkgnxxOAErVO7sztpK4gQW1Sw9Lhq4a9hObU8FZk8+mt+Ty5dHlG6y/JU0teBOGYWqbtQaM+cKlo1ZXr31Ng+HIWeiXv2Z4ay0pdswEUQ/UxaENR1pps8AsA56Bxytyu2YN67qZPRMUICDAXaealIcko4zzIetYQBGjJrlmU+rdAucZMsPrB6owDcet+IhNkf8sGsGeK39dqigqPOGor/hkXXJLUBJm8aez4lCdxNXSpx/MTX1WIiB0Ypzso1MyocdFcNajTM6oTUKfnCpXiSnsmcjaPZ9ajmYlY4tv0fV/SNCuneypGyglFNb7qEcLIfy1EWzzAkzxJp3gWCEYkco2TErdXHOPh4Pkb5BVLcJaSoyImxkWYj65mg4++MeOkdkExHPUUrZzs0e6yEICeeolgj437cwt0aNHHRkcQkPF8oimky+8sOjyQOnvpEaxEHzqspT0IAc86Gc1FB+r9qCq5LcR0LqgErgoSvlbJq3g=

@@ -1,0 +1,47 @@
+<html>
+	<head>
+
+		<title>TradingView Implementation for Binary.com</title>
+
+		<!-- Fix for iOS Safari zooming bug -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/ >
+
+		<script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
+		<script src="bower_components/jstorage/jstorage.min.js"></script>
+		<script src="bower_components/reconnecting-websocket/index.js"></script>
+		<script src="bower_components/lokijs/build/lokijs.min.js"></script>
+
+		<script type="text/javascript" src="common.js"></script>
+		<script type="text/javascript" src="charting_library/charting_library.min.js"></script>
+		<script type="text/javascript" src="charting_library/datafeed/udf/datafeed.js"></script>
+
+		<script type="text/javascript" src="main.js"></script>
+
+	</head>
+
+	<body style="margin:0px;">
+
+		<div>
+			<div id="tv_chart_container" style="padding : 0px !important; width : 100%; height : 100%;"></div>
+		</div>
+
+		<script>
+	      dataLayer = [{
+	        'event':'page_load'
+	      }];
+	    </script>
+	    <!-- Google Tag Manager -->
+	    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MZWFF7"
+	    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	    })(window,document,'script','dataLayer','GTM-MZWFF7');</script>
+	    <!-- End Google Tag Manager -->
+
+	</body>
+
+</html>

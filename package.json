@@ -1,0 +1,35 @@
+{
+  "name": "tradingview",
+  "version": "1.2.4",
+  "description": "",
+  "main": "Grunfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regentmarkets/tradingview.git"
+  },
+  "author": "Arnab Karmakar",
+  "license": "Binary.com",
+  "bugs": {
+    "url": "https://github.com/regentmarkets/tradingview/issues"
+  },
+  "homepage": "https://github.com/regentmarkets/tradingview",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "grunt-bump": "^0.3.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-gh-pages": "^0.10.0",
+    "grunt-remove-logging": "^0.2.0",
+    "grunt-rename": "^0.1.4",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-contrib-uglify": "~0.9.1",
+    "ws": "~0.8.0",
+    "websocket": "~1.0.21"
+  }
+}
