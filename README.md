@@ -1,5 +1,4 @@
-#TradingView Implementation for Binary.com
-[![Build Status](https://travis-ci.org/binary-com/tradingview.svg?branch=master)
+#TradingView Implementation for Binary.com ![Build Status](https://travis-ci.org/binary-com/tradingview.svg?branch=master)
 
 This repository contains HTML, Javascript, CSS, and images content of the [TradingView implementation for binary.com charts](http://binary-com.github.io/tradingview).
 
