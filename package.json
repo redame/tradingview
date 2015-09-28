@@ -1,6 +1,6 @@
 {
   "name": "tradingview",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "",
   "main": "Grunfile.js",
   "scripts": {
