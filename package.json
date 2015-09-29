@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/regentmarkets/tradingview.git"
+    "url": "https://github.com/binary-com/tradingview.git"
   },
   "author": "Arnab Karmakar",
   "license": "Binary.com",
   "bugs": {
-    "url": "https://github.com/regentmarkets/tradingview/issues"
+    "url": "https://github.com/binary-com/tradingview/issues"
   },
-  "homepage": "https://github.com/regentmarkets/tradingview",
+  "homepage": "https://github.com/binary-com/tradingview",
   "devDependencies": {
     "bower": "^1.4.1",
     "grunt-bump": "^0.3.1",
