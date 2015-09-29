@@ -1,5 +1,7 @@
 #Tradingview Implementation for Binary.com ![Build Status](https://travis-ci.org/binary-com/tradingview.svg?branch=master)
 
+[![Join the chat at https://gitter.im/binary-com/tradingview](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/binary-com/tradingview?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository contains HTML, Javascript, CSS, and images content of the [Tradingview implementation for binary.com charts](http://binary-com.github.io/tradingview).
 
 The project is coded in a way that same codebase could be used for both Mobile and Web.
